@@ -5,7 +5,7 @@ INCLUDE Irvine32.inc
 INCLUDE macros.inc
 
 BUFFER_SIZE = 50000
-
+; anal interface
 .data
 buffer BYTE BUFFER_SIZE DUP(?)
 var BYTE BUFFER_SIZE DUP(?)
